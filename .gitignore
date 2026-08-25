@@ -1,0 +1,19 @@
+.gradle/
+build/
+*/build/
+*/out/
+.idea/
+*.iml
+*.iws
+.vscode/
+run/
+*/run/
+
+# Local compile-only dependencies (AE2, Polymorph+). Not ours to redistribute,
+# and the build picks them up from here on the author's machine only.
+libs/
+!libs/README.md
+
+# Mod page descriptions live at polymorphic_ae2/ root, not per-port
+DESCRIPTION_modrinth.md
+DESCRIPTION_curseforge.md
