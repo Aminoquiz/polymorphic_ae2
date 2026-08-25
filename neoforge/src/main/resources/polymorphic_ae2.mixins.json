@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.aminoquiz.polymorphic_ae2.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AEBaseMenuAccessor",
+    "CraftingTermMenuMixin",
+    "PatternEncodingTermMenuMixin"
+  ],
+  "client": [
+    "AbstractRecipesWidgetAccessor",
+    "MEStorageScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
